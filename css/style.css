@@ -14,6 +14,10 @@ a {
     background: #FFFFFF;
 }
 
+.contact-top {
+    text-align: right;
+}
+
 .first-button {
     width: 200px;
     height: 50px;
@@ -153,6 +157,19 @@ a {
 
 /* druga strona */
 
+.tabs-ppage {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    text-align: left;
+}
+
+.bot-contact-papge{
+text-align: right;
+}
+
 .agency-color-ppage {
     font-style: normal;
     font-weight: 500;
@@ -162,31 +179,42 @@ a {
     color: #212121;
 }
 
-button {
-    background-color: lightgray;
-    width: 77px;
-    height: 26px;
-}
-
-li {
-    list-style-type: none;
-}
-
-p { 
-    font-weight: 400;
-}
-
-.navigation {
+.portfolio-color-ppage {
+    font-style: normal;
+    font-weight: 500;
     font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
 }
 
-.ws-header {
-    font-size: 26px;
+.contact-color-ppage {
+font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
 }
 
-.theonlyone {
-    font-family: roboto;
+.mail-color-ppage {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
 }
+
+.number-color-ppage {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
 
 .adress-color {
     font-style: normal;
@@ -203,4 +231,79 @@ p {
     left: 0px;
     top: 2097px;
     background: #2F303A;
+}
+
+.foot-ppage {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    background: #2F303A;
+}
+
+.mail-color-foot-ppage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-decoration-line: underline;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.number-foot-ppage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-foot-ppage {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+/* Ogólne */
+
+button {
+    background-color: lightgray;
+    width: 77px;
+    height: 26px;
+    cursor: pointer;
+    
+}
+
+button:hover {
+    background-color: #2196F3;
+}
+
+button:focus {
+    background-color: #2196F3;
+}
+
+a:link :active {
+    background-color: #2196F3;
+}
+
+a:hover {
+    background-color: transparent;
+    border: 3px solid #2196F3;
+}
+
+li {
+    list-style-type: none;
+}
+
+p {
+    font-weight: 400;
+}
+
+.navigation {
+    font-size: 14px;
 }
