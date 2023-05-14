@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* pierwsza strona */
+
+a {
+    text-decoration: none;
+}
+
+.top-color {
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+.first-button {
+    width: 200px;
+    height: 50px;
+    background:#2196F3 ;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border-color: #2196F3;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+}
+
+.agency-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.portfolio-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.contact-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+.mail-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #2196F3;
+}
+
+.mail-color-bot {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.number-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.number-color-bot {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.first-half-webstudio {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.second-half-webstudio {
+    color:#000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.second-half-webstudio-bot {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+
+.theonlyone-twin {
+    font-family: roboto;
+}
+
+.first-slogan {
+    font-weight: 900;
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    background: #2F303A;
+}
+
+.slogan-color {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        letter-spacing: 0.06em;
+        color: #FFFFFF;
+}
+
+.second-class {
+    font-weight: 700;
+}
+
+/* druga strona */
+
+.agency-color-ppage {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+
+button {
+    background-color: lightgray;
+    width: 77px;
+    height: 26px;
+}
+
+li {
+    list-style-type: none;
+}
+
+p { 
+    font-weight: 400;
+}
+
+.navigation {
+    font-size: 14px;
+}
+
+.ws-header {
+    font-size: 26px;
+}
+
+.theonlyone {
+    font-family: roboto;
+}
+
+.adress-color {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.bottom-color {
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+    background: #2F303A;
+}
