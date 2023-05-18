@@ -2,30 +2,76 @@
 
 /* pierwsza strona */
 
+:root {
+    --main-font: roboto, sans serif;
+    --background-color: #FFFFFF;
+    --main-text-color: #212121;
+    --elements-color: #2196f3;
+    --pure-black-color: #000000;
+    --mail-and-numeber-color: #757575;
+    --dark-background-color: #2F303A;
+    --white-letters: #FFFFFF;
+    --light-text-color: #757575;
+    --main-background-color: #E5E5E5;
+
+
+
+}
+
+body {
+    font-family: var(--main-font);
+}
+
 a {
     text-decoration: none;
 }
 
-.top-color {
+.header-frame {
     width: 1600px;
     height: 80px;
     left: 0px;
     top: 0px;
-    background: #FFFFFF;
+    display: inline;
+    background-color: var(--background-color);
 }
 
-.contact-top {
-    text-align: right;
+.main-slogan {
+    background: var(--dark-background-color);
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+    text-align: center;
+}
+
+.slogan-color {
+    padding: 200px 452px 280px 452px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-letters)
+}
+
+.slogan-frame {
+    width: 696px;
+    height: 120px;
+    top: 280px;
+    left: 452px;
 }
 
 .first-button {
     width: 200px;
     height: 50px;
+    left: 700px;
+    top: 430px;
     background:#2196F3 ;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border-color: #2196F3;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -36,13 +82,25 @@ a {
     color: #FFFFFF;
 }
 
+.button-frame {
+    padding: 350px 700px 200px 700px;
+}
+
 .agency-color {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--main-text-color)
+}
+
+.agency-color:focus {
+    color:var(--elements-color);
+}
+
+.agency-color:hover {
+    color:var(--elements-color);
 }
 
 .portfolio-color {
@@ -60,7 +118,7 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .mail-color {
@@ -69,7 +127,15 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--mail-and-numeber-color)
+}
+
+.mail-color:focus {
+    color: var(--elements-color);
+}
+
+.mail-color:hover {
+    color: var(--elements-color);
 }
 
 .mail-color-bot {
@@ -89,6 +155,7 @@ a {
     letter-spacing: 0.02em;
     color: #757575;
 }
+
 
 .number-color-bot {
     font-style: normal;
@@ -111,12 +178,7 @@ a {
 
 .second-half-webstudio {
     color:#000000;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    letter-spacing: 0.03em;
+
 }
 
 .second-half-webstudio-bot {
@@ -129,46 +191,37 @@ a {
     letter-spacing: 0.03em;
 }
 
-.theonlyone-twin {
-    font-family: roboto;
-}
 
-.first-slogan {
-    font-weight: 900;
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    background: #2F303A;
-}
-
-.slogan-color {
-        font-style: normal;
-        font-weight: 900;
-        font-size: 44px;
-        line-height: 60px;
-        letter-spacing: 0.06em;
-        color: #FFFFFF;
-}
-
-.second-class {
+.second-class h2 {
     font-weight: 700;
+    size: 14px;
+    line-height: 16.41px;
+    color: var(--main-text-color);
+    text-transform: uppercase;
+}
+
+.second-class p {
+    font-weight: 400;
+    size: 14px;
+    line-height: 24px;
+    color: var(--light-text-color);
+}
+
+.photos-section {
+    background-color: var(--main-background-color);
+    width: 1600px;
+}
+
+.photos-section h2 {
+    font-weight: 700;
+    size: 36px;
+    text-align: center;
+    color: var(--main-text-color);
 }
 
 /* druga strona */
 
-.tabs-ppage {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    background: #FFFFFF;
-    text-align: left;
-}
 
-.bot-contact-papge{
-text-align: right;
-}
 
 .agency-color-ppage {
     font-style: normal;
@@ -176,7 +229,7 @@ text-align: right;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .portfolio-color-ppage {
@@ -185,7 +238,15 @@ text-align: right;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #2196F3;
+    color: var(--elements-color);
+}
+
+.portfolio-color-ppage:hover {
+    color: var(--elements-color)
+}
+
+.portfolio-color-ppage:focus {
+    color: var(--elements-color)
 }
 
 .contact-color-ppage {
@@ -230,7 +291,7 @@ font-style: normal;
     height: 252px;
     left: 0px;
     top: 2097px;
-    background: #2F303A;
+    background: var(--dark-background-color);
 }
 
 .foot-ppage {
@@ -238,7 +299,7 @@ font-style: normal;
     height: 252px;
     left: 0px;
     top: 1628px;
-    background: #2F303A;
+    background: var(--dark-background-color);
 }
 
 .mail-color-foot-ppage {
@@ -287,22 +348,12 @@ button:focus {
     background-color: #2196F3;
 }
 
-a:link :active {
-    background-color: #2196F3;
-}
-
-a:hover {
-    background-color: transparent;
-    border: 3px solid #2196F3;
-}
 
 li {
     list-style-type: none;
 }
 
-p {
-    font-weight: 400;
-}
+
 
 .navigation {
     font-size: 14px;
