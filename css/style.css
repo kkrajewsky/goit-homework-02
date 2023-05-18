@@ -3,23 +3,21 @@
 /* pierwsza strona */
 
 :root {
-    --main-font: roboto, sans serif;
+    --main-font: Roboto, sans-serif;
     --background-color: #FFFFFF;
     --main-text-color: #212121;
-    --elements-color: #2196f3;
+    --elements-color: #2196F3;
     --pure-black-color: #000000;
     --mail-and-numeber-color: #757575;
     --dark-background-color: #2F303A;
     --white-letters: #FFFFFF;
     --light-text-color: #757575;
     --main-background-color: #E5E5E5;
-
-
-
 }
 
 body {
     font-family: var(--main-font);
+
 }
 
 a {
@@ -53,7 +51,7 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    color: var(--white-letters)
+    color: var(--white-letters);
 }
 
 .slogan-frame {
@@ -92,7 +90,7 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
 }
 
 .agency-color:focus {
@@ -109,7 +107,7 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #212121;
+    color: var(--main-text-color);
 }
 
 .contact-color {
@@ -238,16 +236,17 @@ a {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: var(--elements-color);
+    color: var(--main-text-color);
 }
 
 .portfolio-color-ppage:hover {
-    color: var(--elements-color)
+    color: var(--elements-color);
 }
 
-.portfolio-color-ppage:focus {
-    color: var(--elements-color)
+.portfolio-color-ppage:active {
+    color: var(--elements-color);
 }
+
 
 .contact-color-ppage {
 font-style: normal;
@@ -330,12 +329,18 @@ font-style: normal;
     color: #FFFFFF;
 }
 
+.navigation:hover {
+    color: var(--elements-color);
+}
+
+.navigation:focus {
+    color: var(--elements-color);
+}
+
 /* Ogólne */
 
 button {
     background-color: lightgray;
-    width: 77px;
-    height: 26px;
     cursor: pointer;
     
 }
@@ -348,13 +353,6 @@ button:focus {
     background-color: #2196F3;
 }
 
-
 li {
     list-style-type: none;
-}
-
-
-
-.navigation {
-    font-size: 14px;
 }
