@@ -13,82 +13,86 @@
     --white-letters: #FFFFFF;
     --light-text-color: #757575;
     --main-background-color: #E5E5E5;
+    --icon-color: #afb1b8;
+    --footer-text-color: #rgba(255, 255, 255, 0.6);
+    --team-section: #F5F4FA;
+    --footer-adress-color: #FFFFFF;
 }
 
 body {
     font-family: var(--main-font);
-
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+    letter-spacing: 0.03em;
+    font-size: 14px;
 }
 
 a {
     text-decoration: none;
 }
 
-.header-frame {
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-    display: inline;
-    background-color: var(--background-color);
-}
 
-.main-slogan {
+.first-class {
     background: var(--dark-background-color);
-    width: 1600px;
-    height: 600px;
-    left: 0px;
-    top: 80px;
-    text-align: center;
 }
 
-.slogan-color {
-    padding: 200px 452px 280px 452px;
+.main-page-text {
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
-    text-align: center;
+    line-height: 1.36;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
     color: var(--white-letters);
-}
-
-.slogan-frame {
-    width: 696px;
-    height: 120px;
-    top: 280px;
-    left: 452px;
+    text-align: center;
 }
 
 .first-button {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background:#2196F3 ;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    border-color: #2196F3;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
-    align-items: center;
+    line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
-    color: #FFFFFF;
+    color: var(--main-text-color);
+    font-family: inherit;
 }
 
-.button-frame {
-    padding: 350px 700px 200px 700px;
+.button-position {
+    text-align: center;
+}
+
+.first-button:hover {
+    background-color: #2196F3;
+    color: var(--footer-adress-color)
+}
+
+.first-button:focus {
+    background-color: #2196F3;
+    color: var(--footer-adress-color)
+}
+
+.header-ho-ver :hover {
+    color: var(--elements-color);
+}
+
+.header-ho-ver :focus {
+    color: var(--elements-color);
+}
+
+.footer-ho-ver :hover{
+    color: var(--elements-color);
+}
+
+.footer-ho-ver :focus{
+    color: var(--elements-color);
 }
 
 .agency-color {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -105,7 +109,7 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -114,7 +118,7 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -123,7 +127,7 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--mail-and-numeber-color)
 }
@@ -140,7 +144,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -149,7 +153,7 @@ a {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: #757575;
 }
@@ -159,7 +163,7 @@ a {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -170,135 +174,243 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
 }
 
-.second-half-webstudio {
-    color:#000000;
-
-}
-
-.second-half-webstudio-bot {
-    color: #FFFFFF;
+.first-half-bot {
+    color:var(--elements-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
+
+}
+
+.second-half-webstudio-bot {
+    color: var(--footer-adress-color);
+}
+
+.second-half-webstudio {
+    color: var(--pure-black-color);
+}
+
+.second-half-bot {
+    color: #FFFFFF;
 }
 
 
 .second-class h2 {
     font-weight: 700;
-    size: 14px;
-    line-height: 16.41px;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
     color: var(--main-text-color);
     text-transform: uppercase;
 }
 
 .second-class p {
     font-weight: 400;
-    size: 14px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 1.71;
     color: var(--light-text-color);
-}
-
-.photos-section {
-    background-color: var(--main-background-color);
-    width: 1600px;
+    letter-spacing: 0.03em;
 }
 
 .photos-section h2 {
     font-weight: 700;
-    size: 36px;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
     text-align: center;
     color: var(--main-text-color);
+}
+
+.our-team {
+    background-color: var(--team-section);
+}
+
+.our-team h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--main-text-color);
+}
+
+.our-team h3 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color)
+}
+
+.our-team p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+.bottom-foot {
+    background-color: var(--dark-background-color);
 }
 
 /* druga strona */
 
 
+.header-ppage :hover {
+    color: var(--elements-color);
+}
 
-.agency-color-ppage {
+.header-ppage :focus {
+    color: var(--elements-color);
+}
+
+.all-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: inherit; 
+}
+
+.pages-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: inherit;
+}
+
+.apps-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: inherit;
+}
+
+.design-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: inherit;
+}
+
+.marketing-button {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+    font-family: inherit;
+}
+
+.all-buttons li :hover{
+    background-color: var(--elements-color);
+    color: var(--footer-adress-color);
+}
+
+
+.agency-ppage {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-.portfolio-color-ppage {
+.portfolio-ppage {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-text-color)
+}
+
+.contact-ppage {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14x;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
 
-.portfolio-color-ppage:hover {
-    color: var(--elements-color);
-}
-
-.portfolio-color-ppage:active {
-    color: var(--elements-color);
-}
-
-
-.contact-color-ppage {
-font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-    color: #212121;
-}
-
-.mail-color-ppage {
+.mail-ppage {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--mail-and-numeber-color);
 }
 
-.number-color-ppage {
+.number-ppage {
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: #757575;
+    color: var(--mail-and-numeber-color);
 }
 
-
-.adress-color {
+.adress-ppage {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: var(--background-color);
 }
 
-.bottom-color {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 2097px;
-    background: var(--dark-background-color);
+.adress-color {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--background-color)
 }
 
-.foot-ppage {
-    width: 1600px;
-    height: 252px;
-    left: 0px;
-    top: 1628px;
-    background: var(--dark-background-color);
+/** koniec header /\ **/
+
+.photos h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--main-text-color);
+}
+
+.photos p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--light-text-color)
 }
 
 .mail-color-foot-ppage {
@@ -307,7 +419,6 @@ font-style: normal;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    text-decoration-line: underline;
     color: rgba(255, 255, 255, 0.6);
 }
 
@@ -315,42 +426,28 @@ font-style: normal;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-.adress-foot-ppage {
+.adress-fopt-ppage {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
-.navigation:hover {
-    color: var(--elements-color);
-}
-
-.navigation:focus {
-    color: var(--elements-color);
+.buttons-ppage :hover {
+    color: #2196F3;
 }
 
 /* Ogólne */
 
 button {
-    background-color: lightgray;
     cursor: pointer;
-    
-}
-
-button:hover {
-    background-color: #2196F3;
-}
-
-button:focus {
-    background-color: #2196F3;
 }
 
 li {
