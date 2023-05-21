@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 
-/* pierwsza strona */
 
 :root {
     --main-font: Roboto, sans-serif;
@@ -27,14 +26,99 @@ body {
     font-size: 14px;
 }
 
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
 a {
     text-decoration: none;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/** początek strony**/
+
+button:hover {
+    background-color: var(--elements-color);
+    color: var(--footer-adress-color);
+}
+
+button:focus {
+    background-color: var(--elements-color);
+    color: var(--footer-adress-color);
+}
+
+a:hover {
+    color: var(--elements-color);
+}
+
+a:focus {
+    color: var(--elements-color);
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 15px 25px 15px;
+}
+
+.header-mp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.contact-mp {
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 
 .first-class {
     background: var(--dark-background-color);
+    width: 1600px;
+    height: 600px;
+    display: flex;
 }
+
 
 .main-page-text {
     font-style: normal;
@@ -44,6 +128,9 @@ a {
     letter-spacing: 0.06em;
     color: var(--white-letters);
     text-align: center;
+    display: flex;
+    align-items: center;
+    padding: 200px 252px 0;
 }
 
 .first-button {
@@ -51,41 +138,19 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.88;
+    line-height: 1.875;
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-text-color);
     font-family: inherit;
+    width: 200px;
+    padding: 10px 0;
+    margin: 30px 500px 200px;
 }
 
-.button-position {
-    text-align: center;
-}
-
-.first-button:hover {
-    background-color: #2196F3;
-    color: var(--footer-adress-color)
-}
-
-.first-button:focus {
-    background-color: #2196F3;
-    color: var(--footer-adress-color)
-}
-
-.header-ho-ver :hover {
-    color: var(--elements-color);
-}
-
-.header-ho-ver :focus {
-    color: var(--elements-color);
-}
-
-.footer-ho-ver :hover {
-    color: var(--elements-color);
-}
-
-.footer-ho-ver :focus {
-    color: var(--elements-color);
+.first-button {
+    background-color: var(--elements-color);
+    color: var(--footer-adress-color);
 }
 
 .agency-color {
@@ -97,13 +162,6 @@ a {
     color: var(--main-text-color);
 }
 
-.agency-color:focus {
-    color: var(--elements-color);
-}
-
-.agency-color:hover {
-    color: var(--elements-color);
-}
 
 .portfolio-color {
     font-style: normal;
@@ -130,14 +188,6 @@ a {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--mail-and-numeber-color)
-}
-
-.mail-color:focus {
-    color: var(--elements-color);
-}
-
-.mail-color:hover {
-    color: var(--elements-color);
 }
 
 .mail-color-bot {
@@ -201,8 +251,13 @@ a {
     color: #FFFFFF;
 }
 
+.lorem-text {
+        display: flex;
+        padding-top: 64px;
+        justify-content: space-around;
+}
 
-.second-class h2 {
+.lorem-text h2 {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -211,12 +266,14 @@ a {
     text-transform: uppercase;
 }
 
-.second-class p {
+.lorem-text p {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     color: var(--light-text-color);
     letter-spacing: 0.03em;
+    display: flex;
+    margin-top: 10px;
 }
 
 .photos-section h2 {
@@ -226,10 +283,29 @@ a {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--main-text-color);
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.photos-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .our-team {
     background-color: var(--team-section);
+    display: flex;
+    height: 648px;
+    width: 1600px;
+    
+}
+
+.team-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .our-team h2 {
@@ -239,6 +315,9 @@ a {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--main-text-color);
+    margin-top: 64px;
+    margin-bottom: 50px;
+    
 }
 
 .our-team h3 {
@@ -247,7 +326,8 @@ a {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-text-color)
+    color: var(--main-text-color);
+    margin-top: 30px;
 }
 
 .our-team p {
@@ -256,7 +336,8 @@ a {
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--main-text-color);
+    color: var(--light-text-color);
+    margin-top: 10px;
 }
 
 .bottom-foot {
@@ -264,15 +345,6 @@ a {
 }
 
 /* druga strona */
-
-
-.header-ppage :hover {
-    color: var(--elements-color);
-}
-
-.header-ppage :focus {
-    color: var(--elements-color);
-}
 
 .all-button {
     font-style: normal;
@@ -324,11 +396,25 @@ a {
     font-family: inherit;
 }
 
-.all-buttons li :hover {
-    background-color: var(--elements-color);
-    color: var(--footer-adress-color);
+.agency-pin {
+    padding-left: 93px;
 }
 
+.portfolio-pin {
+    padding-left: 46px;
+}
+
+.contact-pin {
+    padding-left: 46px;
+}
+
+.mail-pin {
+    padding-left: 371px;
+}
+
+.tel-pin {
+    padding-left: 50px;
+}
 
 .agency-ppage {
     font-style: normal;
@@ -439,11 +525,6 @@ a {
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-
-.buttons-ppage :hover {
-    color: #2196F3;
-}
-
 /* Ogólne */
 
 button {
