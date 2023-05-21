@@ -80,11 +80,11 @@ a {
     color: var(--elements-color);
 }
 
-.footer-ho-ver :hover{
+.footer-ho-ver :hover {
     color: var(--elements-color);
 }
 
-.footer-ho-ver :focus{
+.footer-ho-ver :focus {
     color: var(--elements-color);
 }
 
@@ -98,11 +98,11 @@ a {
 }
 
 .agency-color:focus {
-    color:var(--elements-color);
+    color: var(--elements-color);
 }
 
 .agency-color:hover {
-    color:var(--elements-color);
+    color: var(--elements-color);
 }
 
 .portfolio-color {
@@ -179,7 +179,7 @@ a {
 }
 
 .first-half-bot {
-    color:var(--elements-color);
+    color: var(--elements-color);
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
@@ -281,7 +281,7 @@ a {
     line-height: 1.62;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    font-family: inherit; 
+    font-family: inherit;
 }
 
 .pages-button {
@@ -324,7 +324,7 @@ a {
     font-family: inherit;
 }
 
-.all-buttons li :hover{
+.all-buttons li :hover {
     background-color: var(--elements-color);
     color: var(--footer-adress-color);
 }
