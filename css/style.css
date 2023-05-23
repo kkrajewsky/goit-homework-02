@@ -93,30 +93,42 @@ a:focus {
 }
 
 .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 24px 15px 25px 15px;
+    padding: 32px 0;
+    margin-left: 93px;
 }
 
 .header-mp {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+}
+
+.header-list {
+    display: flex;
+    gap: 46px;
 }
 
 .contact-mp {
     display: flex;
-    justify-content: flex-end;
-    
+    margin-left: auto;
+    gap: 50px;
 }
 
+.footer-mp {
+    display: flex;
+    width: 1600px;
+}
+
+.footer-adress-mp {
+    display: flex;
+    align-items: canter;
+    justify-content: flex-start;
+
+}
 
 .first-class {
     background: var(--dark-background-color);
-    width: 1600px;
-    height: 600px;
-    display: flex;
+    padding: 200px 0;
+
 }
 
 
@@ -128,9 +140,8 @@ a:focus {
     letter-spacing: 0.06em;
     color: var(--white-letters);
     text-align: center;
-    display: flex;
-    align-items: center;
-    padding: 200px 252px 0;
+    max-width: 696px;
+    margin: 0 auto;
 }
 
 .first-button {
@@ -144,8 +155,9 @@ a:focus {
     color: var(--main-text-color);
     font-family: inherit;
     width: 200px;
-    padding: 10px 0;
-    margin: 30px 500px 200px;
+    padding: 10px 0;  
+    margin: 0 auto;
+    margin-top: 30px;
 }
 
 .first-button {
@@ -253,7 +265,6 @@ a:focus {
 
 .lorem-text {
         display: flex;
-        padding-top: 64px;
         justify-content: space-around;
 }
 
@@ -273,7 +284,7 @@ a:focus {
     color: var(--light-text-color);
     letter-spacing: 0.03em;
     display: flex;
-    margin-top: 10px;
+    padding: 10px 0 0 0;
 }
 
 .photos-section h2 {
@@ -284,28 +295,30 @@ a:focus {
     text-align: center;
     color: var(--main-text-color);
     display: flex;
-    margin-bottom: 50px;
     justify-content: space-around;
+}
+
+.photos-section {
+    padding-top: 0;
 }
 
 .photos-list {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    gap: 30px;
+    padding: 50px 0 0 0;
+    margin: 0 auto;
 }
 
 .our-team {
     background-color: var(--team-section);
     display: flex;
-    height: 648px;
-    width: 1600px;
-    
 }
 
 .team-img {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px 0 0 0;
 }
 
 .our-team h2 {
@@ -315,9 +328,6 @@ a:focus {
     letter-spacing: 0.03em;
     text-align: center;
     color: var(--main-text-color);
-    margin-top: 64px;
-    margin-bottom: 50px;
-    
 }
 
 .our-team h3 {
@@ -327,7 +337,8 @@ a:focus {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    margin-top: 30px;
+    padding: 30px 0 0 0;
+    text-align: center;
 }
 
 .our-team p {
@@ -337,7 +348,8 @@ a:focus {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--light-text-color);
-    margin-top: 10px;
+    padding: 10px 0 0 0;
+    text-align: center;
 }
 
 .bottom-foot {
@@ -396,25 +408,6 @@ a:focus {
     font-family: inherit;
 }
 
-.agency-pin {
-    padding-left: 93px;
-}
-
-.portfolio-pin {
-    padding-left: 46px;
-}
-
-.contact-pin {
-    padding-left: 46px;
-}
-
-.mail-pin {
-    padding-left: 371px;
-}
-
-.tel-pin {
-    padding-left: 50px;
-}
 
 .agency-ppage {
     font-style: normal;
